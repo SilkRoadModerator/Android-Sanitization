@@ -1,5 +1,24 @@
 # Android-Sanitization
 
+Now a days world is moving towards digital and it has some pros and cons too, like each and every day we put tons of our personal data online willingly or unwillingly and it is getting upload viva our devices like smart phones, tablet and computers etc.
+
+In this our focus is more will be on Mobile Phones. 
+
+We love to use the products which come's free and cheap with loaded lots features and functionality thats makes our life more easy simple.
+
+GMAIL : COMMUNICATION (Email)
+WHATSAPP : COMMUNICATION (Messaging) (Even corporate companies make their groups to dicuss office's matters and even some of employees share their credentials on that.)
+FACEBOOK : SOCIAL MEDIA. (Here we dumping all of our personal life, because some people upload each and every their daily activity over facebook)
+LINKEDIN : SOCIAL NETWORK FOR JOB SEEKERS. (Here We can find any ones professional life, Mine too.)
+
+"If you do not pay for a service, you are the product they sell. so it ever has been. 
+                                                                        (Tom Webster)"
+
+
+
+
+******************************************************************************************************************************************************************
+
 Android sanitization without custom ROMs, unlocked boot-loaders, or rooted devices.
 
 You may be surprised how easily you can make any Android device more private and secure. 
@@ -73,3 +92,5 @@ adb shell cmd package install-existing --user 10 com.google.android.youtube
 adb shell pm disable-user --user 10 com.google.android.youtube 
 
 adb shell pm enable --user 10 com.google.android.youtube 
+
+******************************************************************************************************************************************************************
