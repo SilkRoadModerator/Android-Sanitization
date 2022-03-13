@@ -17,8 +17,6 @@ LINKEDIN : SOCIAL NETWORK FOR JOB SEEKERS. (Here We can find any ones profession
     "If you do not pay for a service, you are the product they sell. so it ever has been.(Tom Webster)"
 
 
-
-
 ******************************************************************************************************************************************************************
 
 Android sanitization without custom ROMs, unlocked boot-loaders, or rooted devices.
@@ -35,20 +33,30 @@ ANDROID SANITIZATION:
 
 USB Debugging: Settings > About Phone > Build Number (x7) Settings > System > Advanced > Developer Options > Enable > USB Debugging > Enable ADB 
 
-Test: adb devices 
+    Test: adb devices 
 
     List all packages: adb shell pm list packages --user 0
+    
     List specific packages: adb shell pm list package --user 0 | grep 'google'
+    
     Uninstall a package for primary user: adb shell pm uninstall -k --user 0 com.google.android.youtube 
+    
     Reinstall a package for primary user: adb shell cmd package install-existing com.google.android.youtube 
+    
     Disable a package for primary user: adb shell pm disable-user --user 0 com.google.android.youtube 
+    
     Reenable a package for primary user: adb shell pm enable com.google.android.youtube 
     
 Google services and apps examples: 
+
 Google Services: com.google.android.gsf 
+
 Google Play: com.google.android.gms 
+
 Google Store: com.android.vending 
+
 Google Carriers: com.google.android.ims 
+
 Google Speech: com.google.android.tts 
 
 Google Telemetry: com.google.mainline.telemetry 
