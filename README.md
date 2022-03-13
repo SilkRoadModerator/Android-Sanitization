@@ -44,8 +44,15 @@ USB Debugging: Settings > About Phone > Build Number (x7) Settings > System > Ad
 ![Packages_1](https://user-images.githubusercontent.com/53815408/158076017-d354f492-502a-4363-adca-3146b700640a.png)
 
     
-Google services and apps examples:
+    Google services and apps examples:
+    
+![Google_Package_List](https://user-images.githubusercontent.com/53815408/158076064-4461a582-d090-4f82-897a-6cb3442ef62f.png)
 
+    After Uninstalling : com.google.android.youtube 
+    
+![Youtube_Uninstall_and_List](https://user-images.githubusercontent.com/53815408/158076117-c514e65d-fe41-4065-8562-7922ed36fb6e.png)
+
+    After installing : com.google.android.youtube 
 
 ![After_Installing_Youtube_and_List](https://user-images.githubusercontent.com/53815408/158075915-37e9087e-7185-4c9a-97a3-e3e68100c864.png)
 
