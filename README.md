@@ -1,20 +1,13 @@
 # Android-Sanitization
+
 Android sanitization without custom ROMs, unlocked boot-loaders, or rooted devices.
-
 You may be surprised how easily you can make any Android device more private and secure. 
-
-ANDROID SANITIZATION: 
-
-ADB Installation: Linux: sudo apt update && sudo apt install android-tools-adb android-tools-fastboot 
-
-Mac: brew install android-platform-tools 
-
-Windows: choco install adb 
-
+ANDROID SANITIZATION:
+ADB Installation: Linux: $ sudo apt update && sudo apt install android-tools-adb android-tools-fastboot 
+Mac: $ brew install android-platform-tools 
+Windows: C:/ choco install adb 
 USB Debugging: Settings > About Phone > Build Number (x7) Settings > System > Advanced > Developer Options > Enable > USB Debugging > Enable ADB 
-
 Test: adb devices 
-
 List all packages: adb shell pm list packages --user 0
 List specific packages: adb shell pm list package --user 0 | grep 'google'
 Uninstall a package for primary user: adb shell pm uninstall -k --user 0 com.google.android.youtube 
