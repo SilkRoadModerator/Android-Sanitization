@@ -40,6 +40,7 @@ Test: adb devices
     Reinstall a package for primary user: adb shell cmd package install-existing com.google.android.youtube 
     Disable a package for primary user: adb shell pm disable-user --user 0 com.google.android.youtube 
     Reenable a package for primary user: adb shell pm enable com.google.android.youtube 
+    
 Google services and apps examples: 
 Google Services: com.google.android.gsf 
 Google Play: com.google.android.gms 
@@ -67,7 +68,7 @@ Gmail: com.google.android.gm
 
 Youtube: com.google.android.youtube 
 
-Simple Tools: https://www.simplemobiletools.com 
+    Simple Tools: https://www.simplemobiletools.com 
 
 Extract and Install Example: adb shell pm path com.android.gallery3d adb pull /product/app/Gallery2/Gallery2.apk adb install --user 0 Gallery2.apk 
 
