@@ -23,9 +23,9 @@ Android sanitization without custom ROMs, unlocked boot-loaders, or rooted devic
 
 You may be surprised how easily you can make any Android device more private and secure. 
 
-ANDROID SANITIZATION:
-
-    ADB Installation: Linux: sudo apt update && sudo apt install android-tools-adb android-tools-fastboot
+ADB Installation:
+    
+    Linux: sudo apt update && sudo apt install android-tools-adb android-tools-fastboot
 
     Mac: $ brew install android-platform-tools 
 
