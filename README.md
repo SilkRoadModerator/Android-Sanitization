@@ -15,8 +15,8 @@ USB Debugging: Settings > About Phone > Build Number (x7) Settings > System > Ad
 
 Test: adb devices 
 
-List all packages: adb shell pm list packages --user 0 
-List specific packages: adb shell pm list package --user 0 | grep 'google' 
+List all packages: adb shell pm list packages --user 0
+List specific packages: adb shell pm list package --user 0 | grep 'google'
 Uninstall a package for primary user: adb shell pm uninstall -k --user 0 com.google.android.youtube 
 Reinstall a package for primary user: adb shell cmd package install-existing com.google.android.youtube 
 Disable a package for primary user: adb shell pm disable-user --user 0 com.google.android.youtube 
