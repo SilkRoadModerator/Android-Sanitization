@@ -41,35 +41,8 @@ USB Debugging: Settings > About Phone > Build Number (x7) Settings > System > Ad
     
 Google services and apps examples: 
 
-Google Services: com.google.android.gsf 
+![After_Installing_Youtube_and_List](https://user-images.githubusercontent.com/53815408/158075915-37e9087e-7185-4c9a-97a3-e3e68100c864.png)
 
-Google Play: com.google.android.gms 
-
-Google Store: com.android.vending 
-
-Google Carriers: com.google.android.ims 
-
-Google Speech: com.google.android.tts 
-
-Google Telemetry: com.google.mainline.telemetry 
-
-Google Photos: com.google.android.apps.photos 
-
-Google Maps: com.google.android.apps.maps 
-
-Google Calendar: com.google.android.calendar 
-
-Google Contacts: com.google.android.contacts 
-
-Google Messages: com.google.android.apps.messaging 
-
-Google Dialer: com.google.android.dialer 
-
-Google Keyboard: com.google.android.inputmethod.latin 
-
-Gmail: com.google.android.gm 
-
-Youtube: com.google.android.youtube 
 
     Simple Tools: https://www.simplemobiletools.com 
 
