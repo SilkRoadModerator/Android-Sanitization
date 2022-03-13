@@ -24,11 +24,11 @@ You may be surprised how easily you can make any Android device more private and
 
 ANDROID SANITIZATION:
 
-ADB Installation: Linux: $ sudo apt update && sudo apt install android-tools-adb android-tools-fastboot 
+    ADB Installation: Linux: sudo apt update && sudo apt install android-tools-adb android-tools-fastboot
 
-Mac: $ brew install android-platform-tools 
+    Mac: $ brew install android-platform-tools 
 
-Windows: C:/ choco install adb 
+    Windows: C:/ choco install adb 
 
 USB Debugging: Settings > About Phone > Build Number (x7) Settings > System > Advanced > Developer Options > Enable > USB Debugging > Enable ADB 
 
