@@ -39,7 +39,13 @@ USB Debugging: Settings > About Phone > Build Number (x7) Settings > System > Ad
     
     Reenable a package for primary user: adb shell pm enable com.google.android.youtube 
     
-Google services and apps examples: 
+ ![Packages_list](https://user-images.githubusercontent.com/53815408/158075997-ce191268-8449-4189-a429-2d6ffaa5fb83.png)
+ 
+![Packages_1](https://user-images.githubusercontent.com/53815408/158076017-d354f492-502a-4363-adca-3146b700640a.png)
+
+    
+Google services and apps examples:
+
 
 ![After_Installing_Youtube_and_List](https://user-images.githubusercontent.com/53815408/158075915-37e9087e-7185-4c9a-97a3-e3e68100c864.png)
 
