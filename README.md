@@ -17,7 +17,7 @@ Google collects tons of our data with or without our concern with the help of de
 I am more concerned about my privacy and data than anything why I tried to get rid of stock android OS 
 which is of google's they ship their Android OS with devices along with Bloatware I don't like that much because they use to suck our information at every stage while using that Android OS and Android devices.
 
-Apple does not allow us to have custom ROM and other stuff. (need to do more work on it)
+Apple does not allow us to have custom ROM and other stuff.
 
 Over android, we can achieve that by having custom ROM with the help of GrapheneOS and many more, but if not want to mess 
 with our new stock phone is worth 20k to 70k, we can also achieve that just by getting rid of stock programs and 
