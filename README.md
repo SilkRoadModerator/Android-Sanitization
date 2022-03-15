@@ -115,14 +115,13 @@ So here we are hiding the applications we are not fully removing, we are killing
     
     Reenable a package for primary user: adb shell pm enable com.google.android.youtube 
 
-Secondary Profiles
-
-Android now has a built-in feature that allows you to set up multiple user accounts, which means you can set up a secondary user profile that shares absolutely no data with your own. It's a great way to maintain your privacy.
-
-
 If you remove the default gallery using the below commands you can install a new gallery application from Legion OS.
 
     Extract and Install Example: adb shell pm path com.android.gallery3d adb pull /product/app/Gallery2/Gallery2.apk adb install --user 0 Gallery2.apk 
+
+Secondary Profiles:
+
+Android now has a built-in feature that allows you to set up multiple user accounts, which means you can set up a secondary user profile that shares absolutely no data with your own. It's a great way to maintain your privacy.
 
 It is for a secondary profile.
 
@@ -162,4 +161,4 @@ Other tools links:
     
 ![legionos](https://user-images.githubusercontent.com/53815408/158334514-f6a48815-1c9c-4bd8-8bfd-92a571081e17.png)
 
-                                                            Thank you.
+                                                 Thank you.
