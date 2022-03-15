@@ -25,7 +25,7 @@ bloatware which collects lots of our data even without concern.
 
 Ungoogled Rom to get rid of google services it has done to protect our privacy.
 
-   **DISCLAIMER
+DISCLAIMER
    
     I take no responsibility if you replicate any of my steps and screw up your devices, I am not telling you to do what I am telling is what I did.
 
@@ -115,16 +115,16 @@ So here we are hiding the applications we are not fully removing, we are killing
     
     Reenable a package for primary user: adb shell pm enable com.google.android.youtube 
 
-**Secondary Profiles
+Secondary Profiles
 
 Android now has a built-in feature that allows you to set up multiple user accounts, which means you can set up a secondary user profile that shares absolutely no data with your own. It's a great way to maintain your privacy.
 
 
-**If you remove the default gallery using the below commands you can install a new gallery application from Legion OS.
+If you remove the default gallery using the below commands you can install a new gallery application from Legion OS.
 
     Extract and Install Example: adb shell pm path com.android.gallery3d adb pull /product/app/Gallery2/Gallery2.apk adb install --user 0 Gallery2.apk 
 
-**It is for a secondary profile.
+It is for a secondary profile.
 
     Secondary Profiles: adb shell pm list packages --user 10 adb shell pm list package --user 10 | grep 'google' 
 
@@ -138,3 +138,20 @@ Android now has a built-in feature that allows you to set up multiple user accou
 
 ******************************************************************************************************************************************************************
 
+We can replace the apps with other apps that provide more privacy and security.
+
+    https://www.simplemobiletools.com/
+
+![simplemobiletools](https://user-images.githubusercontent.com/53815408/158333274-7a2aa192-2b16-40ce-996c-0aea3a6110c9.png)
+
+Other tools links:
+
+    https://privacy.com/
+
+    https://grapheneos.org/
+
+    https://blokada.org/
+
+    https://blog.legionos.org/
+
+Thank you.
