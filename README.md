@@ -147,11 +147,19 @@ We can replace the apps with other apps that provide more privacy and security.
 Other tools links:
 
     https://privacy.com/
+    
+![privacy](https://user-images.githubusercontent.com/53815408/158334364-1e152671-1a8e-467f-b354-4c2c2c2a1e7a.png)
 
     https://grapheneos.org/
+    
+![grapheneos](https://user-images.githubusercontent.com/53815408/158334417-22e812d4-abb1-4dee-9438-4379871a4333.png)
 
     https://blokada.org/
+    
+![blokada](https://user-images.githubusercontent.com/53815408/158334462-5a11a4a2-8648-4a79-b6db-8d5848f81732.png)
 
     https://blog.legionos.org/
+    
+![legionos](https://user-images.githubusercontent.com/53815408/158334514-f6a48815-1c9c-4bd8-8bfd-92a571081e17.png)
 
-Thank you.
+                                                            Thank you.
