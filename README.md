@@ -39,7 +39,7 @@ Android sanitization without custom ROMs unlocked boot-loaders or rooted devices
 
 You may be surprised how easily you can make any Android device more private and secure.
 
-I want to remove that applications viva Android Debug Bridge (ADB) is a versatile command-line tool that lets you 
+I want to remove that applications via Android Debug Bridge (ADB) is a versatile command-line tool that lets you 
 communicate with a device. The ADB command facilitates a variety of device actions, such as installing and debugging apps, and provides access to a Unix shell that you can use to run a variety of commands on a device.)
 
 ADB Installation:
