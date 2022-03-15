@@ -1,19 +1,46 @@
 # Android-Sanitization
 
-Now a days world is moving towards digital and it has some pros and cons too, like each and every day we put tons of our personal data online willingly or unwillingly and it is getting upload viva our devices like smart phones, tablet and computers etc.
+Nowadays the world is moving towards digital and it has some pros and cons too, like every day we put tons of our data online willingly or unwillingly and it is getting uploaded via our devices like smartphones, tablets, computers, etc.
 
-In this our focus is more will be on Mobile Phones. 
-
-We love to use the products which come's free and cheap with loaded lots features and functionality thats makes our life more easy simple.
+In this, our focus is more will be on Android Mobile Phones.
 
     "If you do not pay for a service, you are the product they sell. so it ever has been.(Tom Webster)"
 
 
 ******************************************************************************************************************************************************************
 
-Android sanitization without custom ROMs, unlocked boot-loaders, or rooted devices.
+Android developed by a consortium of developers known as the Open Handset Alliance and commercially sponsored by Google, 
+every android device has running Google android OS comes free with devices it consumes lots of google services.
 
-You may be surprised how easily you can make any Android device more private and secure. 
+Google collects tons of our data with or without our concern with the help of devices and OS.
+
+I am more concerned about my privacy and data than anything why I tried to get rid of stock android OS 
+which is of google's they ship their Android OS with devices along with Bloatware I don't like that much because they use to suck our information at every stage while using that Android OS and Android devices.
+
+Apple does not allow us to have custom ROM and other stuff. (need to do more work on it)
+
+Over android, we can achieve that by having custom ROM with the help of GrapheneOS and many more, but if not want to mess 
+with our new stock phone is worth 20k to 70k, we can also achieve that just by getting rid of stock programs and 
+bloatware which collects lots of our data even without concern.
+
+Ungoogled Rom to get rid of google services it has done to protect our privacy.
+
+   **DISCLAIMER
+   
+    I take no responsibility if you replicate any of my steps and screw up your devices, I am not telling you to do what I am telling is what I did.
+
+If you removed too much stuff and the device stopped working then boot the device in recovery mode and reset it will become good as new.
+
+Bloatware "(potentially unwanted programs- PUP) or we can say pre-installed software on the device" application which we cannot uninstall it from the devices we stop it just by doing force quit and if the phone get restart 
+
+Manually or due to software updates may start automatically right after the restart.
+
+Android sanitization without custom ROMs unlocked boot-loaders or rooted devices.
+
+You may be surprised how easily you can make any Android device more private and secure.
+
+I want to remove that applications viva Android Debug Bridge (ADB) is a versatile command-line tool that lets you 
+communicate with a device. The ADB command facilitates a variety of device actions, such as installing and debugging apps, and provides access to a Unix shell that you can use to run a variety of commands on a device.)
 
 ADB Installation:
     
@@ -34,12 +61,32 @@ USB Debugging: Settings > About Phone > Build Number (x7) Settings > System > Ad
     Uninstall a package for primary user: adb shell pm uninstall -k --user 0 com.google.android.youtube 
     
     Reinstall a package for primary user: adb shell cmd package install-existing com.google.android.youtube 
+      
+The applications don't vanish completely because OS itself has those applications in it and I want to reinstall it I can do that.
+
+But it doesn't not visible in your profile, you can't execute it in your profile and it can't run in the background doing various things and transmitting the data without it being present.
+
+Google services and apps examples:
+
+    Google Services: com.google.android.gsf
+    Google Play: com.google.android.gms
+    Google Store: com.android.vending 
+    Google Carriers: com.google.android.ims 
+    Google Speech: com.google.android.tts 
+    Google Telemetry: com.google.mainline.telemetry 
+    Google Photos: com.google.android.apps.photos 
+    Google Maps: com.google.android.apps.maps 
+    Google Calendar: com.google.android.calendar 
+    Google Contacts: com.google.android.contacts 
+    Google Messages: com.google.android.apps.messaging 
+    Google Dialer: com.google.android.dialer 
+    Google Keyboard: com.google.android.inputmethod.latin 
+    Gmail: com.google.android.gm 
+    Youtube: com.google.android.youtube 
+
+By doing all we can achieve 95% sanitization because Facebook is still there but it is not running on the devices and we cannot accidentally click it and it does not send data to Facebook.
     
-    Disable a package for primary user: adb shell pm disable-user --user 0 com.google.android.youtube 
-    
-    Reenable a package for primary user: adb shell pm enable com.google.android.youtube 
-    
- ![Packages_list](https://user-images.githubusercontent.com/53815408/158075997-ce191268-8449-4189-a429-2d6ffaa5fb83.png)
+![Packages_list](https://user-images.githubusercontent.com/53815408/158075997-ce191268-8449-4189-a429-2d6ffaa5fb83.png)
  
 ![Packages_1](https://user-images.githubusercontent.com/53815408/158076017-d354f492-502a-4363-adca-3146b700640a.png)
 
@@ -56,19 +103,38 @@ USB Debugging: Settings > About Phone > Build Number (x7) Settings > System > Ad
 
 ![After_Installing_Youtube_and_List](https://user-images.githubusercontent.com/53815408/158075915-37e9087e-7185-4c9a-97a3-e3e68100c864.png)
 
+If we do not want to remove we can disable it by just executing the below commands.
 
-    Simple Tools: https://www.simplemobiletools.com 
+But it gets enabled automatically sometimes due to some bigger update like OS update from 11 to 12 which is a bigger update and it may enable that applications.
 
-Extract and Install Example: adb shell pm path com.android.gallery3d adb pull /product/app/Gallery2/Gallery2.apk adb install --user 0 Gallery2.apk 
+Removing it than disabling it is a much bigger step.
 
-Secondary Profiles: adb shell pm list packages --user 10 adb shell pm list package --user 10 | grep 'google' 
+So here we are hiding the applications we are not fully removing, we are killing them at the point they don't run and we are eliminating connections that applications were made if they are installed.
 
-adb install --user 10 adb shell pm uninstall -k --user 10 com.google.android.youtube 
+    Disable a package for primary user: adb shell pm disable-user --user 0 com.google.android.youtube 
+    
+    Reenable a package for primary user: adb shell pm enable com.google.android.youtube 
 
-adb shell cmd package install-existing --user 10 com.google.android.youtube 
+**Secondary Profiles
 
-adb shell pm disable-user --user 10 com.google.android.youtube 
+Android now has a built-in feature that allows you to set up multiple user accounts, which means you can set up a secondary user profile that shares absolutely no data with your own. It's a great way to maintain your privacy.
 
-adb shell pm enable --user 10 com.google.android.youtube 
+
+**If you remove the default gallery using the below commands you can install a new gallery application from Legion OS.
+
+    Extract and Install Example: adb shell pm path com.android.gallery3d adb pull /product/app/Gallery2/Gallery2.apk adb install --user 0 Gallery2.apk 
+
+**It is for a secondary profile.
+
+    Secondary Profiles: adb shell pm list packages --user 10 adb shell pm list package --user 10 | grep 'google' 
+
+    adb install --user 10 adb shell pm uninstall -k --user 10 com.google.android.youtube 
+
+    adb shell cmd package install-existing --user 10 com.google.android.youtube 
+
+    adb shell pm disable-user --user 10 com.google.android.youtube 
+
+    adb shell pm enable --user 10 com.google.android.youtube 
 
 ******************************************************************************************************************************************************************
+
