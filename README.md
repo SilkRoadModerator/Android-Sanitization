@@ -19,7 +19,8 @@ I am more concerned about my privacy and data than anything, that's why I tried 
 I do not use any mobile devices browser for internet browsing because lots of other apps can have access to that data.
 
 The data collected can include:
-your location, what device you're using, which advertisements you've clicked on, and many more.
+
+    your location, what device you're using, which advertisements you've clicked on, and many more.
 
 Apple does not allow us to have custom ROM and other stuff.
 
