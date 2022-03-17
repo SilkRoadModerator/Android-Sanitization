@@ -2,7 +2,7 @@
 
 Nowadays the world is moving towards digital and it has some pros and cons too, like every day we put tons of our data online willingly or unwillingly and it is getting uploaded via our devices like smartphones, tablets, computers, etc.
 
-In this, our focus is more will be on Android Mobile Phones.
+***In this, our focus is more will be on Android Mobile Phones.***
 
     "If you do not pay for a service, you are the product they sell. so it ever has been.(Tom Webster)"
 
@@ -14,11 +14,11 @@ every android device has running Google android OS comes free with devices it co
 
 Google collects tons of our data with or without our concern with the help of devices and OS.
 
-I am more concerned about my privacy and data than anything, that's why I tried to get rid of Google's Services which comes by default with stock android devices and along with Bloatware, I don't like this free stuff that much because they use to suck our information at every stage while we are using that Android OS and Android devices.
+**I am more concerned about my privacy and data than anything, that's why I tried to get rid of Google's Services which comes by default with stock android devices and along with Bloatware, I don't like this free stuff that much because they use to suck our information at every stage while we are using that Android OS and Android devices.**
 
-I do not use any mobile devices browser for internet browsing because lots of other apps can have access to that data.
+**I do not use any mobile devices browser for internet browsing because lots of other apps can have access to that data.**
 
-The data collected can include:
+### The data collected can include:
 
     your location, what device you're using, which advertisements you've clicked on, and many more.
 
@@ -30,11 +30,11 @@ bloatware which collects lots of our data even without concern.
 
 Ungoogled Rom to get rid of google services it has done to protect our privacy.
 
-DISCLAIMER
+# DISCLAIMER
    
     I take no responsibility if you replicate any of my steps and screw up your devices, I am not telling you to do what I am telling is what I did.
 
-If you removed too much stuff and the device stopped working then boot the device in recovery mode and reset it will become good as new.
+**If you removed too much stuff and the device stopped working then boot the device in recovery mode and reset it will become good as new.**
 
 Bloatware "(potentially unwanted programs- PUP) or we can say pre-installed software on the device" application which we cannot uninstall it from the devices we stop it just by doing force quit and if the phone get restart 
 
@@ -47,7 +47,7 @@ You may be surprised how easily you can make any Android device more private and
 I want to remove that applications via Android Debug Bridge (ADB) is a versatile command-line tool that lets you 
 communicate with a device. The ADB command facilitates a variety of device actions, such as installing and debugging apps, and provides access to a Unix shell that you can use to run a variety of commands on a device.)
 
-ADB Installation:
+### ADB Installation:
     
     Linux: sudo apt update && sudo apt install android-tools-adb android-tools-fastboot
 
@@ -55,7 +55,7 @@ ADB Installation:
 
     Windows: C:/ choco install adb 
 
-USB Debugging: Settings > About Phone > Build Number (x7) Settings > System > Advanced > Developer Options > Enable > USB Debugging > Enable ADB 
+### USB Debugging: Settings > About Phone > Build Number (x7) Settings > System > Advanced > Developer Options > Enable > USB Debugging > Enable ADB 
 
     Test: adb devices 
 
@@ -71,7 +71,7 @@ The applications don't vanish completely because OS itself has those application
 
 But it doesn't not visible in your profile, you can't execute it in your profile and it can't run in the background doing various things and transmitting the data without it being present.
 
-Google services and apps examples:
+### Google services and apps examples:
 
     Google Services: com.google.android.gsf
     Google Play: com.google.android.gms
@@ -95,16 +95,15 @@ By doing all we can achieve 95% sanitization because Facebook is still there but
  
 ![Packages_1](https://user-images.githubusercontent.com/53815408/158076017-d354f492-502a-4363-adca-3146b700640a.png)
 
-    
-    Google services and apps examples:
+### Google services and apps examples:
     
 ![Google_Package_List](https://user-images.githubusercontent.com/53815408/158076064-4461a582-d090-4f82-897a-6cb3442ef62f.png)
 
-    After Uninstalling : com.google.android.youtube 
+### After Uninstalling : com.google.android.youtube 
     
 ![Youtube_Uninstall_and_List](https://user-images.githubusercontent.com/53815408/158076117-c514e65d-fe41-4065-8562-7922ed36fb6e.png)
 
-    After installing : com.google.android.youtube 
+### After installing : com.google.android.youtube 
 
 ![After_Installing_Youtube_and_List](https://user-images.githubusercontent.com/53815408/158075915-37e9087e-7185-4c9a-97a3-e3e68100c864.png)
 
@@ -124,11 +123,11 @@ If you remove the default gallery using the below commands you can install a new
 
     Extract and Install Example: adb shell pm path com.android.gallery3d adb pull /product/app/Gallery2/Gallery2.apk adb install --user 0 Gallery2.apk 
 
-Secondary Profiles:
+### Secondary Profiles:
 
 Android now has a built-in feature that allows you to set up multiple user accounts, which means you can set up a secondary user profile that shares absolutely no data with your own. It's a great way to maintain your privacy.
 
-It is for a secondary profile.
+### It is for a secondary profile.
 
     Secondary Profiles: adb shell pm list packages --user 10 adb shell pm list package --user 10 | grep 'google' 
 
@@ -142,27 +141,27 @@ It is for a secondary profile.
 
 ******************************************************************************************************************************************************************
 
-We can replace the apps with other apps that provide more privacy and security.
+### We can replace the apps with other apps that provide more privacy and security.
 
-    https://www.simplemobiletools.com/
+[simple mobile tools](https://www.simplemobiletools.com/)
 
-![simplemobiletools](https://user-images.githubusercontent.com/53815408/158333274-7a2aa192-2b16-40ce-996c-0aea3a6110c9.png)
+![Simplemobiletools](https://user-images.githubusercontent.com/53815408/158333274-7a2aa192-2b16-40ce-996c-0aea3a6110c9.png)
 
-Other tools links:
+### Other tools links:
 
-    https://privacy.com/
+[Privacy](https://privacy.com/)
     
 ![privacy](https://user-images.githubusercontent.com/53815408/158334364-1e152671-1a8e-467f-b354-4c2c2c2a1e7a.png)
 
-    https://grapheneos.org/
+[Grapheneos](https://grapheneos.org/)
     
 ![grapheneos](https://user-images.githubusercontent.com/53815408/158334417-22e812d4-abb1-4dee-9438-4379871a4333.png)
 
-    https://blokada.org/
+[Blokada](https://blokada.org/)
     
 ![blokada](https://user-images.githubusercontent.com/53815408/158334462-5a11a4a2-8648-4a79-b6db-8d5848f81732.png)
 
-    https://blog.legionos.org/
+[Legionos](https://blog.legionos.org/)
     
 ![legionos](https://user-images.githubusercontent.com/53815408/158334514-f6a48815-1c9c-4bd8-8bfd-92a571081e17.png)
 
