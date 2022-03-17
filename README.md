@@ -166,4 +166,8 @@ Other tools links:
     
 ![legionos](https://user-images.githubusercontent.com/53815408/158334514-f6a48815-1c9c-4bd8-8bfd-92a571081e17.png)
 
+### Apple iOS 15 Privacy Guide 
+
+[iOS Privacy Guide](https://github.com/SilkRoadModerator/iOS-Privacy-Guide).
+
     Thank you.
