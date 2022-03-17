@@ -14,8 +14,12 @@ every android device has running Google android OS comes free with devices it co
 
 Google collects tons of our data with or without our concern with the help of devices and OS.
 
-I am more concerned about my privacy and data than anything why I tried to get rid of stock android OS 
-which is of google's they ship their Android OS with devices along with Bloatware I don't like that much because they use to suck our information at every stage while using that Android OS and Android devices.
+I am more concerned about my privacy and data than anything, that's why I tried to get rid of Google's Services which comes by default with stock android devices and along with Bloatware, I don't like this free stuff that much because they use to suck our information at every stage while we are using that Android OS and Android devices.
+
+I do not use any mobile devices browser for internet browsing because lots of other apps can have access to that data.
+
+The data collected can include:
+your location, what device you're using, which advertisements you've clicked on, and many more.
 
 Apple does not allow us to have custom ROM and other stuff.
 
