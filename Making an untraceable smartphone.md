@@ -1,5 +1,7 @@
 # Making an untraceable smartphone...
 
+![0*XvjsTagSiMqTv_0i](https://user-images.githubusercontent.com/53815408/170924679-3f6755f4-ed9c-4c9b-b2cc-c4b2a7cfe4cc.jpg)
+
 ### Let’s talk about… anonymity. Today we will talk about the security of our mobile phones. Let’s start with hadware…
 
     REQUIREMENTS:
